@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>modcol</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css" /> <!-- swiper css -->
+    <link rel="stylesheet" href="./resources/css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="./resources/css/common.css"  />
+
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script> <!-- swiper js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./resources/js/common.js"></script>
+</head>
+<body>
+<div class="cursor"><img src="./resources/images/pc/cursor.png"></div>
+<!-- wrap -->
+<div class="wrap">
+    <!-- header  -->
+    <header class="moc-header">
+        <div class="inner">
+            <h1><a href="./index.html"><img src="./resources/images/pc/header_ckd.jpg" alt="종근당"></a></h1>
+            <ul>
+                <li data-url="event1" class="on"><a role="button" class="blind">메인</a></li>
+                <li data-url="event2"><a role="button" class="blind">연질 캡슐</a></li>
+                <li data-url="event3"><a role="button" class="blind">시럽</a></li>
+            </ul>
+            <a href="" target="_blank" class="btn-pharm"><img src="./resources/images/pc/header_btn_pharm.png" alt="가까운 약국 찾기"></a>
+        </div>
+    </header>
+
+    <main>
+        <!-- main -->
+        <section class="section main event1">
+            <div class="visual-item"><img src="./resources/images/pc/main_visual.jpg" alt=""></div>
+            <div class="video-item">
+                <video width="100%" height="100%" id="vide-visual" muted autoplay loop playsinline>
+                    <source src="https://www.braining.kr/build/assets/video2-c479fa7c.mp4" type="video/mp4" preload="metadata">
+                        Sorry, your browser doesn't support embedded videos.
+                </video>
+                <div class="btn-box"><a href="https://www.youtube.com/watch?v=3ipNabOX9cw&t=2s" target="_blank"><img src="./resources/images/pc/btn_more_view.png" alt="영상 더보기"></a></div>
+            </div>
+        </section>
+
+        <!-- capsule -->
+        <section class="section capsule ">
+            <div class="capsule-bg1 event2">
+                <div class="title"><img src="./resources/images/pc/capsule_title.png" alt=""></div>
+                <!-- <div class="visual-item" data-aos="fade-up" data-aos-anchor-placement="top-center"> -->
+                <div class="visual-item">
+                    <ul data-aos="fade-up" data-aos-duration="1000">
+                        <li id="cap-banner1"><img src="./resources/images/pc/capsule_img_banner1.png" alt=""></li>
+                        <li id="cap-banner2"><img src="./resources/images/pc/capsule_img_banner2.png" alt=""></li>
+                        <li id="cap-banner3"><img src="./resources/images/pc/capsule_img_banner3.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="capsule-bg2">
+                <div class="visual-item">
+                    <div class=""><img src="./resources/images/pc/capsule2_img.png" alt=""></div>
+                    <div class="txt txt1"><a href="javascript:;"><img src="./resources/images/pc/capsule2_txt1.png" alt="기술력"></a></div>
+                    <div class="txt txt2"><a href="javascript:;"><img src="./resources/images/pc/capsule2_txt2.png" alt="안전성"></a></div>
+                    <div class="txt txt3"><a href="javascript:;"><img src="./resources/images/pc/capsule2_txt3.png" alt="효과/효능"></a></div>
+                    <div class="txt txt4"><a href="javascript:;"><img src="./resources/images/pc/capsule2_txt4.png" alt="편리성"></a></div>
+                    <div class="txt txt5"><a href="javascript:;"><img src="./resources/images/pc/capsule2_txt5.png" alt="라인업"></a></div>
+                </div>
+            </div>
+            <!-- 약리작용-->
+            <div class="capsule-bg3">
+                <div class="title"><img src="./resources/images/pc/capsule3_title.png" alt=""></div>
+                <div class="visual-item">
+                    <div class="ani-box moving-basic on">
+                        <div class="img-box"><img src="./resources/images/pc/capsule3_img_basic.png " alt="" usemap="#image-map"></div>
+                    </div>
+                    <div class="ani-box moving1">
+                        <div class="img-box"><img src="./resources/images/pc/capsule3_ani1_img.png " alt=""></div>
+                        <div class="ring-box"><img src="./resources/images/pc/capsule3_ani1_ring.png " alt=""></div>
+                        <div class="txt-box"><img src="./resources/images/pc/capsule3_ani1_txt.png " alt=""></div>
+                    </div>
+                    <div class="ani-box moving2">
+                        <div class="img-box"><img src="./resources/images/pc/capsule3_ani2.png " alt=""></div>
+                        <div class="ring-box"><img src="./resources/images/pc/capsule3_ani2_ring.png " alt=""></div>
+                        <div class="txt-box"><img src="./resources/images/pc/capsule3_ani2_txt.png " alt=""></div>
+                    </div>
+                    <div class="ani-box moving3">
+                        <div class="img-box"><img src="./resources/images/pc/capsule3_ani3.png " alt=""></div>
+                        <div class="ring-box"><img src="./resources/images/pc/capsule3_ani3_ring.png " alt=""></div>
+                        <div class="txt-box"><img src="./resources/images/pc/capsule3_ani3_txt.png " alt=""></div>
+                    </div>
+                </div>
+                <map name="image-map">
+                    <area alt="모드코프S" title="모드코프S" href="javascript:;" id="map-mod1" coords="596,553,605,374,757,285,991,289,987,551" shape="poly">
+                    <area alt="모드코S" title="모드코S" href="javascript:;" id="map-mod2" coords="593,557,605,377,426,276,209,293,201,551,593,557" shape="poly">
+                    <area alt="모드콜S" title="모드콜S" href="javascript:;" id="map-mod3" coords="604,373,761,278,749,70,445,68,434,279" shape="poly">
+                </map>
+            </div>
+        </section>
+
+        <!-- syrup -->
+        <section class="section syrup event3">
+            <div class="syrup-bg1">
+                <div class="title" data-aos="fade-up"  data-aos-duration="1000"><img src="./resources/images/pc/syrup_title.png" alt=""></div>
+                <div class="sub-tit" data-aos="fade-up" data-aos-duration="1000"><img src="./resources/images/pc/syrup_sub_tit1.png" alt=""></div>
+                <div class="visual-item" data-aos="fade-up" data-aos-duration="1000">
+                    <ul>
+                        <li id="syrup-banner1"><img src="./resources/images/pc/syrup_item1.png" alt=""></li>
+                        <li id="syrup-banner2"><img src="./resources/images/pc/syrup_item2.png" alt=""></li>
+                        <li id="syrup-banner3"><img src="./resources/images/pc/syrup_item3.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="sub-tit2" data-aos="fade-up" data-aos-duration="1000"><img src="./resources/images/pc/syrup_sub_tit2.png" alt=""></div>
+            </div>
+            <div class="syrup-bg2">
+                <div class="title" data-aos="fade-up"><img src="./resources/images/pc/syrup2_title.png" alt=""></div>
+                <div class="visual-item" data-aos="fade-up">
+                    <img src="./resources/images/pc/syrup2_item.png" alt="">
+                </div>
+                <div class="btn-area" data-aos="fade-up" id="syrup-banner4">
+                    <img src="./resources/images/pc/syrup2_btn.png" alt="자세히 보기">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="moc-footer">
+        <div class="inner">
+            <h1><a href="./index.html"><img src="./resources/images/pc/footer_ckd.jpg" alt="종근당"></a></h1>
+            <div class="footer-desc">
+                <div class="footer-item">
+                    <span class="txt"><strong>주소</strong> 서울특별시 서대문구 충정로8</span>
+                    <span class="txt"><strong>전화</strong> 02-2194-0300</span>
+                    <span class="txt"><strong>팩스</strong>  02-2194-03690</span>
+                    <span class="txt"><strong>고객센터</strong>   080-6776-080</span>
+                </div>
+                <div class="footer-item">
+                    <span class="txt"><strong>사업자번호</strong> 110-86-08069</span>
+                    <span class="txt"><strong>대표자명</strong> 김영주</span>
+                    <span class="txt"><strong>광고심의필</strong> 2024-0000-000000</span>
+                </div>
+                <copyright>Copyright 2021 by Chong Kun Dang pharmaceutical Corp. All right reserved</copyright>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- //wrap -->
+
+
+<!-- layer popup -->
+<!-- 팝업 1- 모드코 -->
+<div class="modal basic-modal" id="capsule-mod1">
+    <div class="pop-box">
+        <div class="pop-body">
+            <div class="img-gift"><img src="./resources/images/pc/pop_capsule_img1.png" alt="코감기엔 모드코S" /></div>
+        </div>
+    </div>
+    <a href="#" rel="modal:close" class="close-modal">Close</a>
+</div>
+
+<!-- 팝업 2- 모드코프 -->
+<div class="modal basic-modal" id="capsule-mod2">
+    <div class="pop-box">
+        <div class="pop-body">
+            <div class="img-gift"><img src="./resources/images/pc/pop_capsule_img2.png" alt="종합감기엔 모드콜S" /></div>
+        </div>
+    </div>
+    <a href="#" rel="modal:close" class="close-modal">Close</a>
+</div>
+
+<!-- 팝업 3- 모드콜 -->
+<div class="modal basic-modal" id="capsule-mod3">
+    <div class="pop-box">
+        <div class="pop-body">
+            <div class="img-gift"><img src="./resources/images/pc/pop_capsule_img3.png" alt="목감기엔 모드코프S" /></div>
+        </div>
+    </div>
+    <a href="#" rel="modal:close" class="close-modal">Close</a>
+</div>
+
+<!-- 팝업 4- 코프시럽 -->
+<div class="modal basic-modal" id="syrup-mod1">
+    <div class="pop-box">
+        <div class="pop-body">
+            <div class="img-gift"><img src="./resources/images/pc/pop_syrup_img1.png" alt="기침 가레엔 모드콜 코프시럽" /></div>
+        </div>
+    </div>
+    <a href="#" rel="modal:close" class="close-modal">Close</a>
+</div>
+
+<!-- 팝업 5- 코프시럽 -->
+<div class="modal basic-modal" id="syrup-mod2">
+    <div class="pop-box">
+        <div class="pop-body">
+            <div class="img-gift"><img src="./resources/images/pc/pop_syrup_img2.png" alt="종합감기엔 모드콜 콜드시럽" /></div>
+        </div>
+    </div>
+    <a href="#" rel="modal:close" class="close-modal">Close</a>
+</div>
+
+<!-- 팝업 6- 코프시럽 -->
+<div class="modal basic-modal" id="syrup-mod3">
+    <div class="pop-box">
+        <div class="pop-body">
+            <div class="img-gift"><img src="./resources/images/pc/pop_syrup_img3.png" alt="코감기엔 모드콜 노즈시럽" /></div>
+        </div>
+    </div>
+    <a href="#" rel="modal:close" class="close-modal">Close</a>
+</div>
+
+<!-- 팝업 7- 코프시럽 -->
+<div class="modal basic-modal" id="syrup-mod4">
+    <div class="pop-box">
+        <div class="pop-body">
+            <div class="swiper-container md-modcol-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <picture class="img">
+                            <img src="./resources/images/pc/pop_syrup_modcolo1.png" alt="약리작용" />
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture class="img">
+                            <img src="./resources/images/pc/pop_syrup_modcolo2.png" alt="약리작용" />
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture class="img">
+                            <img src="./resources/images/pc/pop_syrup_modcolo3.png" alt="약리작용 티페피딘 시트르산염" />
+                        </picture>
+                    </div>
+                </div>
+                <div class="swiper-button-next modcol-next"></div>
+                <div class="swiper-button-prev modcol-prev"></div>
+            </div>
+        </div>
+    </div>
+    <a href="#" rel="modal:close" class="close-modal">Close</a>
+</div>
+
+
+
+
+
+<!-- 팝업 6- 당첨자  -->
+<!-- <div class="modal" id="ending-modal">
+    <div class="ending-wrap">
+        <div class="ending-layer">
+            <div class="img">
+                <img src="./resources/images/ending_popup.png" alt="">
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- <script>$('#ending-modal').modal('show');</script> -->
+
+
+<script src="./resources/js/event.js"></script>
+
+<script>
+    // AOS.init({
+    // duration: 1200
+    // });
+
+    AOS.init({
+        // once: true,
+    });
+    $(window).on('load', function () {
+        AOS.refresh();
+    });
+  </script>
+
+</body>
+</html>
